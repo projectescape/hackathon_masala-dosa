@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Lato','Arial';
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+  color: #555;
+}
+
+.row{
+  max-width: 1140px;
+  margin:0 auto;
+}
+
+header{
+  background-image: linear-gradient(rgba(0,0,0, 0.75), rgba(0,0,0 , 0.75)), url(wall1.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.main-page{
+  position: absolute;
+  width: 1140px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+h1{
+  margin:0px;
+  font-size: 300%;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  color: rgba(255, 255, 255, 0.6);
+  border-bottom: 2px #5758BB;
+}
+
+.btn:link,
+.btn:visited{
+  display: inline-block;
+  padding: 10px 30px;
+  font-weight: 300;
+  text-decoration: none;
+  background-color: #5758BB;
+  border-radius: 250px;
+  color: #fff;
+  border: 3px solid #5758BB;
+  transition: border 1.5s;
+}
+
+.btn:hover,
+.btn:active{
+  display: inline-block;
+  padding: 10px 30px;
+  font-weight: 300;
+  text-decoration: none;
+  background-color: #5758BB;
+  border-radius: 250px;
+  color: #fff;
+  border: 3px solid rgba(255, 255, 255, 0.6);
+  transition: border 1.5s;
+}
+
+.song-name{
+  width:89.8%;
+  height: 50px;
+}
+
+.input-row{
+  padding: 30px;
+  border: 2px solid rgba(255, 255, 255, 0);
+  border-radius: 50px;
+  transition: border 1.5s;
+}
+
+.input-row:hover,
+.input-row:active{
+  padding: 30px;
+  border: 2px solid #5758BB;
+  border-radius: 50px;
+  transition: border 1.5s;
+}
+
+input {
+    background: rgba(61, 61, 61,1.0);
+    box-shadow:none;
+    border: 0px;
+    margin: 0 0 10px 0;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 100%;
+    text-rendering: geometricPrecision;
+    font-weight: 400;
+    border-radius: 250px;
+    padding: 0 30px;
+}
